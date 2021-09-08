@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript HW-02</title>
+</head>
+<body>
+    
+    <script>
+
+        var message;
+        var login = prompt("Введите логин");
+
+        if (login == "Вася") {
+            message = "Привет";
+        } else if (login == "Директор") {
+            message = "Здраствуйте";
+        } else if (login == "") {
+            message = "Нет логина";
+        } else {
+            message = "Неверный логин";
+        }
+
+        alert(message);
+    </script>
+
+</body>
+</html>
